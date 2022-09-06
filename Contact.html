@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h3>Contact Information</h3>
+    <address>Oluwaseun O. Kayode</address>
+    <address>Savi 6-19, Tartu</address>
+    <address>Estonia</address>
+    <address>+(372)5395-4689</address>
+    <address><a href="mailto:oluwaseun.kayode594@gmail.com">oluwaseun.kayode594@gmail.com</a></address>
+    <hr>
+  <p>If you want to get this conversation started right away, tell me about yourself and I will get in touch with you. </p>
+<form action="mailto:oluwaseun.kayode594@gmail.com" method="post" enctype="text/plain">
+  <!--The enctype tells the browser that all the contents in our form are plain text and it helps to display it correctly-->
+    <label>Name*:</label>
+    <input type="text" name="Name" required><br>
+    <label>Phone Number:</label>
+    <input type="tel" name="PhoneNumber"><br>
+    <label>Email*:</label>
+    <input type="email" name="Email" required><br>
+    <label>Message*:</label>
+    <textarea name="Message" rows="8" cols="40"></textarea><br>
+    <input type="submit" required><br>
+    <label>Do you wish to subscribe to my mailing list?</label>
+    <input type="checkbox" name="Subscribe"><br>
+    <em>*Please fill in the required fields</em>
+  </form>
+</body>
+
+</html>
